@@ -1,0 +1,272 @@
+/*ESTRUTURA*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 600px;
+    max-width: 2000px;
+}
+
+/*CABEÇALHO*/
+
+.cabecalho{    
+    background-image: url('../_img/bg_header.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 10%;
+    text-align: center;
+    
+}
+.cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 5%;
+}
+
+.cabecalho p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #87CEEB;
+    color: #000;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+}
+
+.menu-principal {
+    padding: 5px;
+    background-color: #fff;
+    text-align: center;
+    height: 40%;
+}
+
+.menu-principal a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #778899;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 1em;      
+}
+
+.menu-principal a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*CONTEÚDO PRINCIPAL*/
+
+/*SEÇÃO SOBRE NOS*/
+
+.sobre-nos{
+    height: 700px;
+    background-color:#778899;
+}
+
+.sobre-nos h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em; 
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;  
+} 
+
+.texto-sobre-nos{
+    padding: 20px;
+    margin-left: 10%;
+    padding: 20px;
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.sobre-nos p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em; 
+    line-height: 25px;    
+    text-align: justify;
+    color: #fff;
+    padding: 10px; 
+}
+
+.img_sobre{
+    margin-top: 3%;
+    clear: right;
+}
+
+/*SEÇÃO SERVIÇOS*/
+
+.servicos{
+    height: 700px;
+    background-color:#fff;
+    text-align: center;
+}
+
+.servicos h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em; 
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #778899;
+    text-decoration: none;
+    padding: 30px;  
+} 
+
+.servicos img{
+    align-items: center;
+    padding: 10px;
+    border: 1px dashed #778899;
+}
+
+.servicos li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 25px; 
+    color: #778899;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 10px;
+}
+
+/*SEÇÃO NOSSO TIME*/
+
+.nosso-time{
+    height: 400px;
+    background-color:#DCDCDC;
+}
+
+.nosso-time h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em; 
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #778899;
+    text-decoration: none;
+    padding: 30px;  
+}
+
+.nosso-time img{
+    border-radius: 100%;
+    border: 3px solid #778899;
+    margin-left: 46%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nosso-time p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin-left: 44%;     
+}
+
+/*SEÇÃO CONTATO*/
+
+.contato{
+    height: 700px;
+    background-color:#778899;
+}
+
+.contato h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8em; 
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;  
+}
+
+/*FORMULÁRIO*/
+
+.formulario-contato{
+    position: relative;
+    width: 620px;
+    height: 450px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5%;
+    align-content: center;   
+    margin: 0 auto;
+}
+
+.formulario-contato label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.formulario-contato input{
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 1%;
+    border-style: none;
+    background-color: #778899;
+    padding: 2%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.formulario-contato select{
+    margin-top: 5%;
+    border-style: none;
+    background-color: #778899;
+    padding: 2%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.formulario-contato textarea{
+    margin-top: 5%;
+    border-style: none;
+    background-color: #778899;
+    padding: 2%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.formulario-contato button{
+    margin-top: 5%;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    margin-left: 40%;
+    background-color: #778899;
+    border-style: none;
+    color: #fff;
+    font-weight: bold;    
+}
+
+/*RODAPÉ*/
+
+.footer{
+    background-color: #fff;
+    padding: 15px;
+}
+
+footer h5{
+    color: #000;
+    text-align: center;
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
